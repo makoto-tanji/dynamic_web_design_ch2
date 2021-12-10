@@ -1,83 +1,83 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社TECH</title>
+    <!-- 以下追加 -->
+    <link rel="stylesheet" href="css/reset.css/">
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>株式会社TECH</title>
-  <!-- 以下追加 -->
-  <link rel="stylesheet" href="css/reset.css/">
-  <link rel="stylesheet" href="css/contact.css" />
-</head>
+  <body>
+    <header>
+      <a href="./index.html" class="logo">TECH</a>
+      <nav class="nav_header" id="nav">
+        <ul class="ul_nav_header">
+          <li><a href="./index.html">ホーム</a></li>
+          <li><a href="./service.html">事業内容</a></li>
+          <li><a href="./news.html">ニュース</a></li>
+          <li><a href="./blog.html">社員ブログ</a></li>
+          <li><a href="./company.html">会社概要</a></li>
+          <li><a href="./recruit.html">採用情報</a></li>
+          <li><a href="./contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="menu" id="menu">
+        <span class="menu__line--top"></span>
+        <span class="menu__line--middle"></span>
+        <span class="menu__line--bottom"></span>
+      </div>
+    </header>
 
-<body>
-  <header>
-    <h2 class="logo">TECH</h2>
-    <nav class="nav_header" id="nav">
-      <ul class="ul_nav_header">
-        <li><a href="./index.html">ホーム</a></li>
-        <li><a href="./service.html">事業内容</a></li>
-        <li><a href="./news.html">ニュース</a></li>
-        <li><a href="./blog.html">社員ブログ</a></li>
-        <li><a href="./company.html">会社概要</a></li>
-        <li><a href="./recruit.html">採用情報</a></li>
-        <li><a href="./contact.html">お問い合わせ</a></li>
-      </ul>
-    </nav>
-    <div class="menu" id="menu">
-      <span class="menu__line--top"></span>
-      <span class="menu__line--middle"></span>
-      <span class="menu__line--bottom"></span>
-    </div>
-  </header>
+    <main>
+      <section class="eyecatch">
+        <h1 class="text_eyecatch-1">お問い合わせ</h1>
+      </section>
 
-  <main>
-    <section class="eyecatch">
-      <h1 class="text_eyecatch-1">お問い合わせ</h1>
-    </section>
-
-    <section class="contact">
-      <form action="./index.html" method="post" class="form_contact">
-        <div class="item_contact">
-          <label for="" class="company-name">会社名</label>
-          <input type="text" class="text_form">
-        </div>
-        <div class="item_contact">
-          <label for="" class="company-name">お名前 <span class="effect_red">*</span></label>
-          <input type="text" class="text_form">
-        </div>
-        <div class="item_contact">
-          <label for="" class="company-name">メールアドレス <span class="effect_red">*</span></label>
-          <input type="text" class="text_form">
-        </div>
-        <div class="item_contact">
-          <label for="" class="company-name">お問い合わせ内容 <span class="effect_red">*</span></label>
-          <textarea name="" id="" class="text_form" cols="30" rows="4"></textarea>
-        </div>
-      </form>
-      <a href="./contact.html" class="btn btn_contact">お申し込み</a>
-    </section>
-  </main>
+      <section class="contact">
+        <form action="./index.html" method="post" class="form_contact">
+          <div class="item_contact">
+            <label for="" >会社名</label>
+            <input type="text" class="text_form">
+          </div>
+          <div class="item_contact">
+            <label for="name" class="label_mandatory">お名前</label>
+            <input type="text" class="text_form mandatory_field">
+            <span class="comment_plz">このフィールドを入力してください。</span>
+          </div>
+          <div class="item_contact">
+            <label for="" class="label_mandatory">メールアドレス</label>
+            <input type="text" class="text_form mandatory_field">
+          </div>
+          <div class="item_contact">
+            <label for="" class="label_mandatory">お問い合わせ内容</label>
+            <textarea name="" id="" class="text_form mandatory_field" cols="30" rows="4"></textarea>
+          </div>
+        </form>
+        <a href="./contact.html" class="btn btn_contact">お申し込み</a>
+      </section>
+    </main>
 
 
-  <footer>
-    <p class="text_footer">&copy;2020 TECH inc.</p>
-    <nav class="nav_footer">
-      <ul class="ul_nav_footer">
-        <li><a href="./index.html" class="text_footer">ホーム</a></li>
-        <li><a href="./service.html" class="text_footer">事業内容</a></li>
-        <li><a href="./news.html" class="text_footer">ニュース</a></li>
-        <li><a href="./blog.html" class="text_footer">社員ブログ</a></li>
-        <li><a href="./company.html" class="text_footer">会社概要</a></li>
-        <li><a href="./recruit.html" class="text_footer">採用情報</a></li>
-        <li><a href="./contact.html" class="text_footer">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  </footer>
+    <footer>
+      <p class="text_footer">&copy;2020 TECH inc.</p>
+      <nav class="nav_footer">
+        <ul class="ul_nav_footer">
+          <li><a href="./index.html" class="text_footer">ホーム</a></li>
+          <li><a href="./service.html" class="text_footer">事業内容</a></li>
+          <li><a href="./news.html" class="text_footer">ニュース</a></li>
+          <li><a href="./blog.html" class="text_footer">社員ブログ</a></li>
+          <li><a href="./company.html" class="text_footer">会社概要</a></li>
+          <li><a href="./recruit.html" class="text_footer">採用情報</a></li>
+          <li><a href="./contact.html" class="text_footer">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </footer>
 
-  <!-- main.js -->
-  <script src="./js/main.js"></script>
-</body>
+    <!-- main.js -->
+    <script src="./js/main.js"></script>
+  </body>
 
 </html>

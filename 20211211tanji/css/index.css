@@ -9,6 +9,10 @@
 a {
   color: #000;
 }
+a:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
 .ttl {
   font-size: 30px;
 }
@@ -46,6 +50,8 @@ header {
   align-items: center;
 }
 .logo {
+  font-size: 28px;
+  font-weight: bold;
   margin-left: 20px;
 }
 .ul_nav_header {
@@ -274,16 +280,12 @@ main {
   width: 100%;
   display: flex;
 }
-.part_company {
-  width: 50%;
-  height: 200px;
-  background-color: rgb(211, 38, 53);
-}
+.part_company,
 .part_recruit {
   width: 50%;
   height: 200px;
-  background-color: #000;
 }
+
 .link_company,
 .link_recruit {
   width: 100%;
@@ -295,7 +297,12 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+.link_company {
+  background-color: rgb(211, 38, 53);
+}
+.link_recruit {
+  background-color: #000;
+}
 /* sec.contact */
 
 .contact {

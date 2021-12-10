@@ -9,6 +9,10 @@
 a {
   color: #000;
 }
+a:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
 .ttl {
   font-size: 30px;
 }
@@ -46,6 +50,8 @@ header {
   align-items: center;
 }
 .logo {
+  font-size: 28px;
+  font-weight: bold;
   margin-left: 20px;
 }
 .ul_nav_header {
